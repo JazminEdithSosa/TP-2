@@ -1,0 +1,20 @@
+Imports System
+
+Module Program
+    Sub Main(args As String())
+        Console.WriteLine("Ingresar valor: ")
+        Dim Valor As Integer = Console.ReadLine
+        Dim resto As Double
+        resto = Valor Mod 2
+        Console.WriteLine("El resto del valor dividido por 2 es: " & resto)
+        Dim ValorAbs As Double
+        ValorAbs = Math.Abs(Valor)
+        Console.WriteLine("El valor absoluto es: " & ValorAbs)
+        Dim DecimaPot As Double
+        DecimaPot = Valor ^ 10
+        Console.WriteLine("El valor elevado a la decima potencia es: " & DecimaPot)
+        Dim Raiz As Double
+        Raiz = Math.Sqrt(Valor)
+        Console.WriteLine("La raiz cuadrada del valor es: " & Raiz)
+    End Sub
+End Module
