@@ -1,0 +1,13 @@
+Module Program
+    Sub Main(args As String())
+        Dim n As Double
+        Console.WriteLine("Escriba el numero a redondear")
+        n = Console.ReadLine
+        Console.WriteLine("Num. redondeado")
+        Console.WriteLine(Math.Round(n))
+        Console.WriteLine("Num. redondeado por exceso")
+        Console.WriteLine(Math.Ceiling(n))
+        Console.WriteLine("Num. redondeado por defecto")
+        Console.WriteLine(Math.Floor(n))
+    End Sub
+End Module
