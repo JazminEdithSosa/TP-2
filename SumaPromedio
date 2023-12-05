@@ -1,0 +1,14 @@
+    Sub Main(args As String())
+        Console.WriteLine("Ingrese cuatro numeros por separando, tocando enter para hacerlo...")
+        Dim a As Integer = Console.ReadLine
+        Dim b As Integer = Console.ReadLine
+        Dim c As Integer = Console.ReadLine
+        Dim d As Integer = Console.ReadLine
+        Dim sumato As Integer = a + b + c + d
+        Dim media As Integer = sumato / 4
+        Console.WriteLine("Sumando...")
+        Console.WriteLine("Resultado de la suma: " & sumato)
+        Console.WriteLine("Sacando la media a continuacion...")
+        Console.WriteLine("Resultado de la media: " & media)
+    End Sub
+End Module
