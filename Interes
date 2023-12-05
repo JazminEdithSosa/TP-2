@@ -1,0 +1,13 @@
+    Sub Main(args As String())
+        Console.WriteLine("Describa el monto invertido: ")
+        Dim m As Integer = Console.ReadLine
+        Console.WriteLine("Describa el interes anual: ")
+        Dim r As Integer = Console.ReadLine
+        Console.WriteLine("Describa la cantidad de dias que lo hizo: ")
+        Dim t As Integer = Console.ReadLine
+        Console.WriteLine("A continuacion se le calculara el interes producido...")
+        Dim i As Double
+        i = m * r * t / 360 * 100
+        Console.WriteLine("El interes producido es: " & i)
+    End Sub
+End Module
